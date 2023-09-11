@@ -1,4 +1,4 @@
-# PPA - Java backend/full-stack developer take-home assignment
+# PPA-assignment
 Take-home coding assignment for java back-end/full-stack developer position in Police and Border Guard Board.
 
 ## Description
@@ -20,7 +20,7 @@ Ex. case:\
 Accepts one optional integer input `"arv"` and one mandatory input `"jarjestus"`. Checks the input validity based on the constraints of the assignment `(0 <= arv <= 100)` and `(jarjestus = "kasvav" || "kahanev")` and throws an error if one of the inputs is wrong.\
 Displays the history of the additions in the current session in either ascending/decending order and if optional integer is present, then all the equations where the integer is not present in any of the operands or result will be filtered out.\
 Ex. case:\
-`/otsing?jarjestus=kasvav\`
+`/otsing?jarjestus=kasvav`\
 `/otsing?arv=10&jarjestus=kahanev`
 
 #### Additional Comments
